@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Health | Online Doctor Appointment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>E-Health</h1>
+    <nav>
+      <button onclick="showSection('login')">Login</button>
+      <button onclick="showSection('register')">Sign Up</button>
+      <button onclick="showSection('doctor')">Doctor Register</button>
+      <button onclick="showSection('search')">Search Doctor</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Login Form -->
+    <section id="login" class="hidden">
+      <h2>Login</h2>
+      <input type="email" placeholder="Email" id="loginEmail">
+      <input type="password" placeholder="Password" id="loginPassword">
+      <button onclick="loginUser()">Login</button>
+      <p id="loginMsg"></p>
+    </section>
+
+    <!-- Patient Sign-Up -->
+    <section id="register" class="hidden">
+      <h2>Patient Sign-Up</h2>
+      <input type="text" placeholder="Name" id="signupName">
+      <input type="email" placeholder="Email" id="signupEmail">
+      <input type="number" placeholder="Age" id="signupAge">
+      <input type="password" placeholder="Password" id="signupPassword">
+      <input type="password" placeholder="Confirm Password" id="signupConfirm">
+      <button onclick="registerUser()">Register</button>
+      <p id="signupMsg"></p>
+    </section>
+
+    <!-- Doctor Registration -->
+    <section id="doctor" class="hidden">
+      <h2>Doctor Registration</h2>
+      <input type="text" placeholder="Name" id="docName">
+      <input type="email" placeholder="Email" id="docEmail">
+      <input type="text" placeholder="Specialization" id="docSpecial">
+      <input type="text" placeholder="Available Days" id="docDays">
+      <input type="time" placeholder="Start Time" id="docStart">
+      <input type="time" placeholder="End Time" id="docEnd">
+      <button onclick="registerDoctor()">Submit</button>
+      <p id="docMsg"></p>
+    </section>
+
+    <!-- Search Doctors -->
+    <section id="search" class="hidden">
+      <h2>Search Doctors</h2>
+      <input type="text" placeholder="Search by Specialization" id="searchField">
+      <button onclick="searchDoctor()">Search</button>
+      <div id="searchResults"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
