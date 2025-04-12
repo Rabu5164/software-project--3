@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--CSS for mobile-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!--CSS for desktop-->
+    <link rel="stylesheet" href="dekstop.css"media="screen and (min-width :992px)">
+</head>
+<body>
+    <!--navbarstarts from here-->
+    <div class="navbar">
+     <div class="nav-logo col-2">
+    <img src="Group 2.png" alt="logo">
+     </div>
+     <div class="nav-heading col-4">
+      <h1>Shahariear Hossen Rabo</h1>
+     </div>
+     <div class="navbar-menu" col-6>
+           <a href="#">Home</a>
+           <a href="#about-me-id">About me</a>
+           <a href="#skill-id">Skill </a>
+           <a href="#contact-id">Contact Me</a>
+           
+     </div>
+    </div>
+    <!--Navbar Ends here-->
+    <!--profile starts from here-->
+    <div class="profile">
+        <img class="top-weather-icon"src="weather image.png" alt="top-weather-icon">
+
+        <div class="profile-desc">
+      <h1>I am a student of Computer science and Engineering
+        <br>& <br>Web developer</h1>
+        <p>Hi! My name is Shahariear Hossen Rabo.
+            Welcome to my personal Protfolio that i've
+            designed to my showcase my skills and expertise
+            that i've accumpted the year.
+        </p>
+        <img class="bottom-weather-icon"src="weather image.png" alt="bottom-weather-icon">
+
+        </div>
+    </div>
+    <!--profile ends from here-->
+
+    <!-- aboutme starts here-->
+     <div class="aboutme" id="about-me-id">
+        <h2>ABOUT ME</h2>
+        <hr class="dotted-hr">
+        <div class="aboutme-image col-6">
+            <img src="429459420_799387488678061_5718060902889517532_n.jpg"alt="">
+
+        </div>
+
+        <div class="aboutme-desc col-6">
+            <p>I like to call myself "A passoniate 
+                ui/Ux designer & Web developer
+            </p>
+            <p>I made lot of projects based ui/ux designing 
+                and webdeveloping
+            </p>
+            <hr class="aboutme-hr">
+            <p>Name:shaharier Hossen Rabo</p>
+            <hr class="aboutme-hr">
+            <p>Address:Dahak,Mymensigh</p>
+            <hr class="aboutme-hr">
+            <p>Email:<a href="rabucse5164@gmail.com">rabucse5164@gmail.com</a></p>
+      
+            <hr class="aboutme-hr">
+
+            <p>Phone:<a href="tel:+8801959540486">+8801959540486</a></p>
+            <hr class="aboutme-hr">
+
+            <p>
+                <a href="https://www.dropbox.com/s/hcrb4xwuvpicf7/PERSONAL%20INFORMATIONShahariear%20Rabo.pdf?dl=0"target="blank"download="">
+                <button class="cv-button">Download CV</button>
+                </a>
+            </p>
+        </div>
+
+     </div>
+
+      <!-- aboutme ends here-->
+
+      <!--Professional Experience Starts here-->
+     
+      <div class= "professional-experience">
+
+        <div class="Work-experience col-4">
+         
+            <div class="card">
+
+                <div class="card-icon">
+                  <img class="roundimg"src="download.png" alt="work icon">
+                </div>
+
+                <div class="card-title">
+                 <h2>Works Experience</h2>
+                </div>
+
+                <div class="card-desc">
+                    <ol>
+                       <li>
+                       <strong> Works at Graph School</strong><br>
+                       01/05/2023-01/6/2024<br>
+                       Ashulia ,Savar ,Dhaka(Bangladesh)
+                    </li> 
+                    <hr>
+                    <li>
+                        <strong> Works at GraphMart as a programmer</strong><br>
+                        01/05/2023-running<br>
+                        Ashulia ,Savar ,Dhaka(Bangladesh)
+                     </li> 
+                     <hr>
+
+                     <li>
+                        <strong> Works at UI/Ux designer in lovebrand group</strong><br>
+                        01/05/2023-01/6/2024<br>
+                        Ashulia ,Savar ,Dhaka(Bangladesh)
+                     </li> 
+                     <hr>
+                     <li>
+                        <strong> Works at Lecturer Rangdonu School</strong><br>
+                        01/05/2024-Running<br>
+                        Dhaka(Bangladesh)
+                     </li> 
+                     <hr>
+
+                    </ol>
+                </div>
+            </div>
+        
+        </div>
+
+        <div class="education col-4">
+            <div class="card">
+
+                <div class="card-icon">
+                  <img class="roundimg"src="education.png" alt="Education icon">
+                </div>
+
+                <div class="card-title">
+                 <h2>Education AND TRAINING</h2>
+                </div>
+
+                <div class="card-desc">
+                    <ol>
+                       <li>
+                       <strong> Student at daffodil International University</strong><br>
+                       01/05/2022-running<br>
+                       Ashulia ,Savar ,Dhaka(Bangladesh)
+                    </li> 
+                    <hr>
+                    <li>
+                        <strong>Complete HSC </strong><br>
+                        2018-2020<br>
+                        Cantonment Public School and College Momensahi(Bangladesh)
+                     </li> 
+                     <hr>
+
+                     <li>
+                        <strong>  UI/Ux design course complete </strong><br>
+                        2022<br>
+                        Ostad
+                     </li> 
+                     <hr>
+                     <li>
+                        <strong> Complete SSC </strong><br>
+                        2018<br>
+                        Cantonment Public School & College Mymensigh
+                     </li>
+                        <hr>
+
+                    </ol>
+                </div> 
+
+        </div>
+
+
+        <div class="Skills col-4"id="skill-id">
+
+            <div class="education col-4">
+                <div class="card">
+    
+                    <div class="card-icon">
+                      <img class="roundimg"src="skills.png" alt="Skill icon">
+                    </div>
+    
+                    <div class="card-title">
+                     <h2>Skills</h2>
+                    </div>
+    
+                   <div class="skills-container">
+                    <ul>
+                        <li class="html">HTML</li>
+                        <li class="css">CSS</li>
+                        <li class="java">Java</li>
+                        <li class="bootstrap">Bootstrap</li>
+                        <li class="c">C Language</li>
+                        <li class="c++">C++</li>
+                        <li class="jquerey">Jquerey</li>
+                        <li class="nodejs">NodeJs</li>
+                        <li class="reactjs">ReactJs</li>
+                        <li class="express">Express.Js</li>
+                        <li class="git">GIT</li>
+                        
+                        
+                        
+                        
+                        
+                       </ul>
+                   </div>
+                           
+            
+            
+
+        </div>
+
+
+    </div>
+    </div>
+
+<!-- <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br>
+    <br><br> <br><br><br> <br><br> -->
+
+
+      <!--Professional Experience Ends here-->
+
+      <!--Acivement Contacts Start here-->
+
+      <div class="achievements-contact">
+
+        <div class="achievement col-4">
+
+            <h2>ACHIEVEMENTS</h2>
+            <hr class="dotted-hr">
+
+            <p>1.Goverment Schooolarship Based on Psc ,Jsc,SSC results</p>
+            <p>2.Public Bank Schooolarship</p>
+            <p>3.55% weaver based on Academic results</p>
+        </div>
+
+        <div class="contacts col-4"id="contact-id">
+            <h2>CONTACT ME</h2>
+            <hr class="dotted-hr">
+
+            <from action="mailto:rabucse5164@diu.edu.bd"method="post"encription="text/plain">
+               <p><input type="text"placeholder="Your Nmae"name="Name:"></p>
+               <p><input type="email"placeholder="Your email"name="email"></p>
+              <textarea name="message"id=""cols="30"rows="10"placeholder="Your Message here"></textarea>
+           <button type="submit">SEND</button>
+           <button type="reset">RESET</button>
+           
+            </from>
+
+        </div>
+
+        <div class="Contacts links col-4">
+            
+            <h2>More Ways to Contact</h2>
+
+            <hr class="dotted-hr">
+
+            <div class="media-buttons">
+
+                <button class="btn" onclick="windo.open('https://www.youtube.com/@MohitUrRahmanShanto')"class="request-callback"><i class="fa fa-youtube-play"style="color:#c4302b;" aria-hidden="true"></i></button>
+
+            </div>
+
+
+        </div>
+      </div>
+
+
+       <!--Acivement Contacts Ends here-->
+
+       <!--Footers starts from here-->
+      <div class="footer">
+        <div class="footer-menu col-6">
+            <a href="#">Home</a>
+            <a href="#about-me-id">About me</a>
+            <a href="#skill-id">Skill </a>
+            <a href="#contact-id">Contact Me</a>
+            
+        </div>
+        <div class="footer-desc">
+
+            &copy;Maisha2024.Developed With Love by  Rabu.
+
+        </div>
+      </div>
+
+       <!--Footers ends from here-->
+
+
+</body>
+</html>
