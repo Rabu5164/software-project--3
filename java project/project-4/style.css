@@ -1,0 +1,32 @@
+*{
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding: 2rem;
+}
+
+select{
+    margin: 0 1.5rem 1.5rem 0 ;
+}
+main{
+    background-color: aqua;
+    font-size: 16px;
+    padding: 1.5rem;
+}
+p{
+    margin:1.5rem;
+}
+button{
+    border: none;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
